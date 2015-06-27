@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 24, 2014, 4:03:30 PM
+    Author     : sybilla
+*/
+div#container{
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    border:1px solid grey; 
+    }
+   header{
+       
+       height:120px;
+   }
+       
+   ::-webkit-input-placeholder {
+       
+      color: black;
+      
+    }
+    #placeholder{
+    text-align: right;
+    float: right;
+    }
+    .breadcrumb{
+     text-align: right;
+    }
+    .breadcrumb > li{
+     display: inline-block; 
+    }
+    .breadcrumb > li+ li:before{
+        
+     content:">";
+    }
+    
+   nav{
+       text-align: center;
+       background: #ccccff;
+       height: 40px; 
+       font-family: sans-serif;
+       
+   }
+ article#main{
+       
+       background: #ffffcc;
+       width:740px;
+       float: right;
+       height:600px; 
+   }
+  
+   article h2{
+       text-align: left;
+       color: #009999;
+       font-family: "script ms bold";
+       line-height: 50px;
+       
+   }
+   article h3{
+       text-align: left;
+       color: #009999;
+       font-family: serif;
+       line-height: 50px;
+       text-decoration: underline;
+   }
+   article h4{
+       text-align: center;
+       color: #009999;
+       font-family: serif;
+       line-height: 50px;
+       
+   }
+   article li{
+       list-style-type: georgian;
+   }
+   .cartimg{
+        float: left;
+        margin: 10px;
+   }
+   .cartButton{
+       width: 100px;
+       height: 40px;
+       background-color: #ccccff;
+   }
+   .cartheader{
+       width: 100%;
+       
+   }
+   .ch1{
+       text-align: left;
+   }
+   .ch2{
+       text-align: right;
+   }
+   .cartTable{
+       
+       width: 100%; 
+   }
+   .cartTableHeader{
+       text-align: left;
+   }
+   .ct1{  
+       
+       text-align: left;
+       border-bottom:2px solid #009999  ;
+   }
+   .cartButton1{
+       background-color: #ccccff;
+       width: 150px;
+       height: 40px;
+       float: right;
+       
+   }
+   .cartButton2{
+       background-color: #ccccff;
+       width: 150px;
+       height: 40px;
+       float: right;
+   }
+   aside{
+       background: #ffff99;
+       width:180px;
+       height: 600px;
+       float: left;
+       line-height: 50px;
+       }
+   footer{
+       background: #ccccff;
+       height:50px;
+       clear: both;
+   }
+   header, nav, article#main, aside, footer {
+  padding:10px;
+}     
